@@ -23,6 +23,9 @@ public class Day26_MoreStrings {
 		System.out.println(aa);
 		aa.delete(12, 24);
 		System.out.println(aa);
+		aa.deleteCharAt(12);
+		aa.replace(5, 12, "morning");
+		System.out.println(aa);
 
 	}
 
